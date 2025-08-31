@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Délices Express</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Délices Express 🍪</h1>
+    <p>Recettes Simples et Délicieuses</p>
+  </header>
+
+  <main>
+<section id="search-bar">
+  <form id="search-form" name="search-form">
+    <input type="text" name="search-input" placeholder="Rechercher une recette...">
+    <button type="submit">Chercher</button>
+  </form>
+</section>
+
+    <section id="popular-recipes">
+      <h2>Recettes Populaires</h2>
+      <div class="recipe-gallery">
+        <div class="recipe-card">
+          <img src="/images/téléchargement.jpeg" alt="Pâtes rapides">
+          <p>Pâtes rapides</p>
+        </div>
+        <div class="recipe-card">
+          <img src="images/Format-WP-Belly-23.webp" alt="Salade fraîche">
+          <p>Salade fraîche</p>
+        </div>
+        <div class="recipe-card">
+          <img src="images/1000353.jpeg" alt="Cookies moelleux">
+          <p>Cookies moelleux</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Votre nom">
+        <input type="email" id="email" placeholder="Votre email">
+        <textarea id="message" placeholder="Votre message..."></textarea>
+        <button type="submit">Envoyer</button>
+        <p id="error" class="error-message">Veuillez remplir tous les champs.</p>
+      </form>
+    </section>
+
+    <section id="subscribe">
+      <h2>Recevez nos astuces!</h2>
+      <form id="subscribe-form">
+        <input type="email" id="subscribe-email" placeholder="Votre email">
+        <button type="submit">S'inscrire</button>
+        <p id="subscribe-error" class="error-message">Veuillez entrer un email valide.</p>
+      </form>
+    </section>
+
+    <input type="text" id="search" placeholder="Chercher des produits...">
+      <ul id="productList">
+        <li>Brownie</li>
+        <li>Galleta</li>
+        <li>Chocolate</li>
+        <li>Bombón</li>
+        <li>Alfajor</li>
+      </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Délices Express. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
